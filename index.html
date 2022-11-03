@@ -10,47 +10,129 @@
   </head>
   <body>
     <header>
-      <!-- LOGO -->
-      <div class="logo"><img src="media/Logo.png" alt="logo image" /></div>
-      <!-- NAVIGATION BAR + BUTTONS -->
-      <div class="menu">
-        <nav>
-          <li>
-            <a href="#"> Products </a>
-            <!-- add options of choice later -->
-            <select></select>
-          </li>
-          <li>
-            <a href="#"> Solutions </a>
-            <!-- add options of choice later -->
-            <select></select>
-          </li>
-          <li>
-            <a href="#"> Resources </a>
-            <!-- add options of choice later -->
-            <select></select>
-          </li>
-          <li>
-            <a href="#"> Pricing </a>
-            <!-- add options of choice later -->
-            <select></select>
-          </li>
-        </nav>
-        <div class="buttons">
-          <button class="menuBtns" id="loginBtn">Login</button>
-          <button class="menuBtns" id="freeTrialBtn">
-            <span id="tryFreeText">Try Whitepace free</span>
-            <span
-              ><img
-                src="media/Group 212.png"
-                alt="arrow"
-                width="10"
-                height="10"
-            /></span>
-          </button>
+      <div id="headerContainer">
+        <!-- LOGO -->
+        <div id="logo"><img src="media/Logo.png" alt="logo image" /></div>
+        <!-- NAVIGATION BAR + BUTTONS -->
+        <div id="menu">
+          <nav>
+            <li>
+              <a href="#"> Products </a>
+              <!-- add options of choice later -->
+              <select></select>
+            </li>
+
+            <li>
+              <a href="#"> Solutions </a>
+              <!-- add options of choice later -->
+              <select></select>
+            </li>
+            <li>
+              <a href="#"> Resources </a>
+              <!-- add options of choice later -->
+              <select></select>
+            </li>
+            <li>
+              <a href="#"> Pricing </a>
+              <!-- add options of choice later -->
+              <select></select>
+            </li>
+          </nav>
+          <div class="buttons">
+            <button class="menuBtns" id="loginBtn">Login</button>
+            <button class="menuBtns bigBtn">
+              <span class="bigBtnText">Try Whitepace free</span>
+              <span
+                ><img
+                  src="media/Group 212.png"
+                  alt="arrow"
+                  width="10"
+                  height="10"
+              /></span>
+            </button>
+          </div>
         </div>
       </div>
     </header>
-    <footer></footer>
+    <footer>
+      <div id="content">
+        <div id="info">
+          <div class="infoContents" id="infoContent1">
+            <img src="media/whiteLogo.png" alt="logo" />
+            <p2
+              >whitepace was created for the new ways we live and work. We make
+              a better workspace around the world</p2
+            >
+          </div>
+          <div class="infoContents" id="infoContent2">
+            <p2 class="footerP2">Products</p2>
+            <a href="#" class="footerSmallText" style="color: #ffe492"
+              >Overview</a
+            >
+            <a href="#" class="footerSmallText">Pricing</a>
+            <a href="#" class="footerSmallText">Customer stories</a>
+          </div>
+          <div class="infoContents" id="infoContent3">
+            <p2 class="footerP2">Resources</p2>
+            <a href="#" class="footerSmallText">Blog</a>
+            <a href="#" class="footerSmallText">Guides & tutorials</a>
+            <a href="#" class="footerSmallText">Help center</a>
+          </div>
+          <div class="infoContents" id="infoContent4">
+            <p2 class="footerP2">Company</p2>
+            <a href="#" class="footerSmallText">About us</a>
+            <a href="#" class="footerSmallText">Careers</a>
+            <a href="#" class="footerSmallText">Media kit</a>
+          </div>
+          <div class="infoContents" id="infoContent5">
+            <p2 class="footerP2" style="font-size: 28px; line-height: 36px"
+              >Try It Today</p2
+            >
+            <p class="footerSmallText"></p>
+              Get started for free. Add your whole team as your needs grow.
+            </p>
+            <button class="bigBtn" style="width: 186px;">
+              <span class="bigBtnText" style="font-family: Inter; font-size: 16px;">Start Today</span>
+              <span><img src="media/Group 212.png" alt="arrow"></span>
+            </button>
+          </div>
+        </div>
+        <div id="bottom">
+          <div id="termsAndConditions">
+            <div id="language" id="BottomElement1">
+              <img src="media/Globe.png" alt="globe" />
+              <select
+                name="language"
+                class="termsAndConditionsContents"
+                id="footerSelect"
+              >
+                <option value="english">English</option>
+                <option value="ქართული">ქართული</option>
+              </select>
+            </div>
+            <a href="#" class="termsAndConditionsContents" id="BottomElement2"
+              >Terms & privacy</a
+            >
+            <a href="#" class="termsAndConditionsContents" id="BottomElement3"
+              >Security</a
+            >
+            <a href="#" class="termsAndConditionsContents" id="BottomElement4"
+              >Status</a
+            >
+            <a href="#" class="termsAndConditionsContents" id="BottomElement5"
+              >©2021 Whitepace LLC.</a
+            >
+          </div>
+          <div id="socialIcons">
+            <a href="#"
+              ><img src="media/_x30_1._Facebook.png" alt="facebook-icon"
+            /></a>
+            <a href="#"><img src="media/Twitter.png" alt="twitter-icon" /></a>
+            <a href="#"><img src="media/Linkedin.png" alt="linkedin-icon" /></a>
+          </div>
+        </div>
+        <div id="footerLine"></div>
+      </div>
+    </footer>
   </body>
 </html>
